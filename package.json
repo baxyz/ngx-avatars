@@ -16,6 +16,7 @@
   },
   "scripts": {
     "ng": "ng",
+    "prepare": "npm run build",
     "start": "ng serve",
     "build": "ng build",
     "postbuild": "node scripts/copy-artifacts.js",
